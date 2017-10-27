@@ -133,7 +133,7 @@ class Settings
      * @var bool
      */
     private static $outputEscapingEnabled = false;
-    
+
     /**
      * Return the compatibility option used by the XMLWriter
      *
@@ -318,7 +318,7 @@ class Settings
 
     /**
      * @since 0.13.0
-     * 
+     *
      * @return boolean
      *
      * @codeCoverageIgnore
@@ -330,7 +330,7 @@ class Settings
 
     /**
      * @since 0.13.0
-     * 
+     *
      * @param boolean $outputEscapingEnabled
      *
      * @codeCoverageIgnore

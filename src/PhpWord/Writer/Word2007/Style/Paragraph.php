@@ -107,6 +107,12 @@ class Paragraph extends AbstractStyle
             $xmlWriter->endElement();
         }
 
+        //Right to left
+        $xmlWriter->writeElementIf($styles['bidi'] === true, 'w:bidi');
+
+        //Paragraph contextualSpacing
+        $xmlWriter->writeElementIf($styles['contextualSpacing'] === true, 'w:contextualSpacing');
+
         // Child style: alignment, indentation, spacing, and shading
         $this->writeChildStyle($xmlWriter, 'Indentation', $styles['indentation']);
         $this->writeChildStyle($xmlWriter, 'Spacing', $styles['spacing']);

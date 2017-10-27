@@ -1,5 +1,5 @@
 {
-    "name": "phpoffice/phpword",
+    "name": "plivinskiy/phpword",
     "description": "PHPWord - A pure PHP library for reading and writing word processing documents (OOXML, ODF, RTF, HTML, PDF)",
     "keywords": [
         "PHP", "PHPOffice", "office", "PHPWord", "word", "template", "template processor", "reader", "writer",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Franck Lefevre",
-            "homepage": "http://blog.rootslabs.net"
+            "homepage": "https://rootslabs.net/blog/"
         },
         {
             "name": "Ivan Lanin",
@@ -34,10 +34,9 @@
     "require": {
         "php": ">=5.3.3",
         "ext-xml": "*",
-        "zendframework/zend-escaper": "2.4.*",
-        "zendframework/zend-stdlib": "2.4.*",
-        "zendframework/zend-validator": "2.4.*",
-        "phpoffice/common": "0.2.*"
+        "zendframework/zend-escaper": "^2.4",
+        "zendframework/zend-stdlib": "^3.1",
+        "phpoffice/common": "^0.2"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
